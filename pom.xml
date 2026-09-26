@@ -43,13 +43,6 @@
             <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
 
-        <!-- Banco H2 para testes locais -->
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-
         <!-- PostgreSQL para produção -->
         <dependency>
             <groupId>org.postgresql</groupId>
@@ -77,7 +70,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
+        
     </dependencies>
 
     <build>
